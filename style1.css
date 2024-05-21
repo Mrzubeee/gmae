@@ -1,0 +1,60 @@
+/* Custom CSS */
+
+/* Navbar */
+.navbar {
+    background-color: #fdfdfd; /* Background color */
+}
+
+.navbar-brand img {
+    width: 100px; /* Adjust the width of the brand image */
+}
+
+.navbar-nav .nav-link {
+    color: #000000; /* Text color */
+    margin-right: 10px; /* Adjust the right margin */
+}
+
+.navbar-nav .nav-link:hover {
+    color: #007bff; /* Text color on hover */
+}
+
+/* Custom CSS for Carousel */
+
+/* Set the maximum height of the carousel */
+.carousel-inner img {
+    max-height: 300px; /* Adjust the maximum height as needed */
+}
+
+/* Set the minimum height of the carousel */
+.carousel-inner {
+    min-height: 300px; /* Adjust the minimum height as needed */
+}
+
+/* Ensure the carousel starts from the beginning */
+.carousel-item {
+    transition: opacity 0.3s ease-in-out; /* Add transition effect */
+    opacity: 0; /* Initially hide all carousel items */
+}
+
+.carousel-item.active {
+    opacity: 1; /* Show active carousel item */
+}
+
+/* Card */
+.card {
+    margin-top: 20px; /* Adjust the top margin */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Add shadow to the cards */
+}
+
+.card-title {
+    font-weight: bold; /* Make the card titles bold */
+}
+
+.card-text {
+    color: #333333; /* Text color */
+}
+
+.card-img-top {
+    height: 200px; /* Adjust the height of the card images */
+    object-fit: cover; /* Ensure the images cover the entire space */
+}
